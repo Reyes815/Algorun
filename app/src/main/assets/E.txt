@@ -1,0 +1,149 @@
+edge
+
+The connection that links two nodes in a tree, linked list, or graph.
+
+
+
+edit distance
+
+Given strings S and T, the edit distance is a measure for the number of editing steps required to convert S into T.
+
+
+
+efficient
+
+A solution is said to be efficient if it solves the problem within the required resource constraints. A solution is sometimes said to be efficient if it requires fewer resources than known alternatives, regardless of whether it meets any particular requirements.
+
+
+
+element
+
+One value or member in a set.
+
+
+
+empirical comparison
+
+An approach to comparing to things by actually seeing how they perform. Most typically, we are referring to the comparison of two programs by running each on a suite of test data and measuring the actual running times. Empirical comparison is subject to many possible complications, including unfair selection of test data, and inaccuracies in the time measurements due to variations in the computing environment between various executions of the programs.
+
+
+
+empty
+
+For a container class, the state of containing no elements.
+
+
+
+encapsulation
+
+In programming, the concept of hiding implementation details from the user of an ADT, and protecting data members of an object from outside access.
+
+
+
+enqueue
+
+A specialized term used to indicate inserting an element onto a queue.
+
+
+
+entry-sequenced file
+
+A file that stores records in the order that they were added to the file.
+
+
+
+enumeration
+
+The process by which a traversal lists every object in the container exactly once. Thus, a traversal that prints the nodes is said to enumerate the nodes. An enumeration can also refer to the actual listing that is produced by the traversal (as well as the process that created that listing).
+
+
+
+equidistribution property
+
+In random number theory, this means that a given series of random numbers cannot be described more briefly than simply listing it out.
+
+
+
+equivalence class
+
+An equivalence relation can be used to partition a set into equivalence classes.
+
+
+
+equivalence relation
+
+Relation R is an equivalence relation on set S if it is reflexive, symmetric, and transitive.
+
+
+
+estimation
+
+As a technical skill, this is the process of generating a rough estimate in order to evaluate the feasibility of a proposed solution. This is sometimes known as “back of the napkin” or “back of the envelope” calculation. The estimation process can be formalized as (1) determine the major parameters that affect the problem, (2) derive an equation that relates the parameters to the problem, then (3) select values for the parameters and apply the equation to yield an estimated solution.
+
+
+
+evaluation
+
+The act of finding the value for a polynomial at a given point.
+
+
+
+exact-match query
+
+Records are accessed by unique identifier.
+
+
+
+exceptions
+
+Exceptions are techniques used to predict possible runtime errors and handle them properly.
+
+
+
+exchange
+
+A swap of adjacent records in an array.
+
+
+
+exchange sort
+
+A sort that relies solely on exchanges (swaps of adjacent records) to reorder the list. Insertion Sort and Bubble Sort are examples of exchange sorts. All exchange sorts require Θ(n2)
+ time in the worst case.
+
+
+
+expanding the recurrence
+
+A technique for solving a recurrence relation. The idea is to replace the recursive part of the recurrence with a copy of recurrence.
+
+
+
+exponential growth rate
+
+A growth rate function where n (the input size) appears in the exponent. For example, 2n.
+
+
+
+expression tree
+
+A tree structure meant to represent a mathematical expression. Internal nodes of the expression tree are operators in the expression, with the subtrees being the sub-expressions that are its operand. All leaf nodes are operands.
+
+
+
+extent
+
+A physically contiguous block of sectors on a disk drive that are all part of a given disk file. The fewer extents needed to store the data for a disk file, generally the fewer seek operations that will be required to process a series of disk access operations on that file.
+
+
+
+external fragmentation
+
+A condition that arises when a series of memory requests result in lots of small free blocks, no one of which is useful for servicing typical requests.
+
+
+
+external sort
+
+A sorting algorithm that is applied to data stored in peripheral storage such as on a disk drive. This is in contrast to an internal sort that works on data stored in main memory.
+

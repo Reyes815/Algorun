@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DEFAULT TEA THEME-->
+    <color name="parchment">#F0EAD2</color> <!-- background-->
+    <color name="tea_green">#DDE5B6</color> <!-- BUTTON FILL & CODE BG-->
+    <color name="olivine">#ADC178</color>  <!-- action bar-->
+    <color name="chamoisee">#A98467</color>
+    <color name="umber">#6C584C</color> <!-- TEXT COLOR & BUTTON BORDERS-->
+
+
+    <!-- DARK THEME-->
+    <color name="dark_blue">#1A1A30</color> <!-- background-->
+    <color name="black">#0F0F10</color> <!-- action bar-->
+    <color name="light_blue">#BFE6FF</color>  <!-- TEXT COLOR & BUTTON BORDERS-->
+    <color name="des_blue">#3B3B89</color>  <!-- BUTTON FILL & CODE BG-->
+
+    <!-- NEO THEME-->
+    <color name="dirty_white">#DEF8FA</color> <!-- background-->
+    <color name="dark_teal">#3199CB</color> <!-- action bar-->
+    <color name="teal">#2A888C</color>  <!-- TEXT COLOR & BUTTON BORDERS-->
+    <color name="pale_blue">#98E0E6</color>  <!-- BUTTON FILL & CODE BG-->
+    <color name="semi_teal">#74DFE8</color>
+</resources>

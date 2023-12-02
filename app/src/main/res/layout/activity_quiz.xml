@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".algorithms">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmitAnswers"
+            android:layout_width="120dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_drawable"
+            android:text="Submit"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupQ5" />
+
+        <TextView
+            android:id="@+id/txtQ3"
+            android:layout_width="293dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:text="Question 3"
+            app:flow_verticalAlign="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout19"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/txtQ1"
+            android:layout_width="293dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 1"
+            app:flow_verticalAlign="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/quizSpinner"
+            android:visibility="invisible"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupQ2"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout18">
+
+            <RadioButton
+                android:id="@+id/RQ2C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/RQ2C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/RQ2C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="122dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:text="Start"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toEndOf="@+id/quizSpinner"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Spinner
+            android:id="@+id/quizSpinner"
+            android:layout_width="111dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_drawable"
+            android:padding="5dp"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="42dp"
+            android:layout_height="1137dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="42dp"
+            android:layout_height="1143dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="322dp"
+            android:layout_height="37dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Algorun Quiz"
+            android:textIsSelectable="true"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="317dp"
+            android:layout_height="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtQ1"></LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupQ1"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout16">
+
+            <RadioButton
+                android:id="@+id/RQ1C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/RQ1C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/RQ1C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="319dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupQ1"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtQ2"
+            android:layout_width="293dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:text="Question 2"
+            app:flow_verticalAlign="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout17" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="318dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtQ2"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="319dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupQ2"></LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupQ3"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout20">
+
+            <RadioButton
+                android:id="@+id/RQ3C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/RQ3C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                 />
+
+            <RadioButton
+                android:id="@+id/RQ3C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                 />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="322dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtQ3"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="322dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout14"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupQ3"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtQ4"
+            android:layout_width="293dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:text="Question 4"
+            app:flow_verticalAlign="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout21" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutQ4"
+            android:layout_width="316dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtQ4"></LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupQ4"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutQ4">
+
+            <RadioButton
+                android:id="@+id/RQ4C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <RadioButton
+                android:id="@+id/RQ4C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <RadioButton
+                android:id="@+id/RQ4C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayout22"
+            android:layout_width="332dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupQ4"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtQ5"
+            android:layout_width="293dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:text="Question 5"
+            app:flow_verticalAlign="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout22" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout23"
+            android:layout_width="322dp"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtQ5"></LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupQ5"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout23">
+
+            <RadioButton
+                android:id="@+id/RQ5C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <RadioButton
+                android:id="@+id/RQ5C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <RadioButton
+                android:id="@+id/RQ5C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+        </RadioGroup>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,347 @@
+caching
+
+The concept of keeping selected data in main memory. The goal is to have in main memory the data values that are most likely to be used in the near future. An example of a caching technique is the use of a buffer pool.
+
+
+
+call stack
+
+Known also as execution stack. A stack that stores the function call sequence and the return address for each function.
+
+
+
+Cartesian product
+
+For sets, this is another name for the set product.
+
+
+ceiling
+
+Written ⌈x⌉, for real value x the ceiling is the least integer ≥x.
+
+
+
+child
+
+In a tree, the set of nodes directly pointed to by a node R are the children of R.
+
+
+
+circular first fit
+
+In a memory manager, circular first fit is a heuristic for deciding which free block to use when allocating memory from a memory pool. Circular first fit is a minor modification on first fit memory allocation, where the last free block allocated from is remembered, and search for the next suitable free block picks up from there. Like first fit, it has the advantage that it is typically not necessary to look at all free blocks on the free block list to find a suitable free block. And it has the advantage over first fit that it spreads out memory allocations evenly across the free block list. This might help to minimize external fragmentation.
+
+
+
+circular list
+
+A list ADT implementation variant where the last element of the list provides access to the first element of the list.
+
+
+
+class
+
+In the object-oriented programming paradigm an ADT and its implementation together make up a class. An instantiation of a class within a program is termed an object.
+
+
+
+class hierarchy
+
+In object-oriented programming, a set of classes and their interrelationships. One of the classes is the base class, and the others are subclasses that inherit either directly or indirectly from the base class.
+
+
+
+clause
+
+In a Boolean expression, a clause is one or more literals OR’ed together.
+
+
+
+client
+
+The user of a service. For example, the object or part of the program that calls a memory manager class is the client of that memory manager. Likewise the class or code that calls a buffer pool.
+
+
+
+clique
+
+In graph terminology, a clique is a subgraph, defined as any subset U of the graph’s vertices such that every vertex in U has an edge to every other vertex in U. The size of the clique is the number of vertices in the clique.
+
+
+
+closed
+
+A set is closed over a (binary) operation if, whenever the operation is applied to two members of the set, the result is a member of the set.
+
+
+
+closed hash system
+
+A hash system where all records are stored in slots of the hash table. This is in contrast to an open hash system.
+
+
+
+closed-form solution
+
+An algebraic equation with the same value as a summation or recurrence relation. The process of replacing the summation or recurrence with its closed-form solution is known as solving the summation or recurrence.
+
+
+
+cluster
+
+In file processing, a collection of physically adjacent sectors that define the smallest allowed allocation unit of space to a disk file. The idea of requiring space to be allocated in multiples of sectors is that this will reduce the number of extents required to store the file, which reduces the expected number of seek operations reuquired to process a series of disk accesses to the file. The disadvantage of large cluster size is that it increases internal fragmentation since any space not actually used by the file in the last cluster is wasted.
+
+
+
+code generation
+
+A phase in a compiler that transforms intermediate code into the final executable form of the code. More generally, this can refer to the process of turning a parse tree (that determines the correctness of the structure of the program) into actual instructions that the computer can execute.
+
+
+
+code optimization
+
+A phase in a compiler that makes changes in the code (typically assembly code) with the goal of replacing it with a version of the code that will run faster while performing the same computation.
+
+
+
+cohesion
+
+In object-oriented programming, a term that refers to the degree to which a class has a single well-defined role or responsibility.
+
+
+
+
+Collatz sequence
+
+For a given integer value n, the sequence of numbers that derives from performing the following computatin on n
+
+while (n > 1)
+  if (ODD(n))
+    n = 3 * n + 1;
+  else
+    n = n / 2;
+
+This is famous because, while it terminates for any value of n that you try, it has never been proven to be a fact that this always terminates.
+
+
+
+collision
+
+In a hash system, this refers to the case where two search keys are mapped by the hash function to the same slot in the hash table. This can happen on insertion or search when another record has already been hashed to that slot. In this case, a closed hash system will require a process known as collision resolution to find the location of the desired record.
+
+
+
+collision resolution
+
+The outcome of a collision resolution policy.
+
+
+
+collision resolution policy
+
+In hashing, the process of resolving a collision. Specifically in a closed hash system, this is the process of finding the proper position in a hash table that contains the desired record if the hash function did not return the correct position for that record due to a collision with another record.
+
+
+
+comparable
+
+The concept that two objects can be compared to determine if they are equal or not, or to determine which one is greater than the other. In set notation, elements x and y of a set are comparable under a given relation R if either xRy or yRx. To be reliably compared for a greater/lesser relationship, the values being compared must belong to a total order. In programming, the property of a data type such that two elements of the type can be compared to determine if they the same (a weaker version), or which of the two is larger (a stronger version). Comparable is also the name of an interface in Java that asserts a comparable relationship between objects with a class, and .compareTo() is the Comparable interface method that implements the actual comparison between two objects of the class.
+
+
+
+comparator
+
+A function given as a parameter to a method of a library (or alternatively, a parameter for a C++ template or a Java generic). The comparator function concept provides a generic way encapulates the process of performing a comparison between two objects of a specific type. For example, if we want to write a generic sorting routine, that can handle any record type, we can require that the user of the sorting routine pass in a comparator function to define how records in the collection are to be compared.
+
+
+
+comparison
+
+The act of comparing two keys or records. For many data types, a comparison has constant time cost. The number of comparisons required is often used as a measure of cost for sorting and searching algorithms.
+
+
+
+compile-time polymorphism
+
+A form of polymorphism known as Overloading. Overloaded methods have the same names, but different signatures as a method available elsewhere in the class. Compare to run-time polymorphism.
+
+
+
+compiler
+
+A computer program that reads computer programs and converts them into a form that can be directly excecuted by some form of computer. The major phases in a compiler include lexical analysis, syntax analysis, intermediate code generation, code optimization, and code generation. More broadly, a compiler can be viewed as parsing the program to verify that it is syntactically correct, and then doing code generation to convert the hig-level program into something that the computer can execute.
+
+
+
+complete binary tree
+
+A binary tree where the nodes are filled in row by row, with the bottom row filled in left to right. Due to this requirement, there is only one tree of n
+ nodes for any value of n
+. Since storing the records in an array in row order leads to a simple mapping from a node’s position in the array to its parent, siblings, and children, the array representation is most commonly used to implement the complete binary tree. The heap data structure is a complete binary tree with partial ordering constraints on the node values.
+
+
+
+complete graph
+
+A graph where every vertex connects to every other vertex.
+
+
+
+complex number
+
+In mathematics, an imaginary number, that is, a number with a real component and an imaginary component.
+
+
+
+Composite design pattern
+
+Given a class hierarchy representing a set of objects, and a container for a collection of objects, the composite design pattern addresses the relationship between the object hierarchy and a bunch of behaviors on the objects. In the composite design, each object is required to implement the collection of behaviors. This is in contrast to the procedural approach where a behavior (such as a tree traversal) is implemented as a method on the object collection (such as a tree). Procedural tree traversal requires that the tree have a method that understands what to do when it encounters any of the object types (internal or leaf nodes) that the tree might contain. The composite approach would have the tree call the “traversal” method on its root node, which then knows how to perform the “traversal” behavior. This might in turn require invoking the traversal method of other objects (in this case, the children of the root).
+
+
+
+composite type
+
+A type whose members have subparts. For example, a typical database record. Another term for this is aggregate type.
+
+
+
+composition
+
+Relationships between classes based on usage rather than inheritance, i.e. a HAS-A relationship. For example, some code in class ‘A’ has a reference to some other class ‘B’.
+
+
+
+computability
+
+A branch of computer science that deals with the theory of solving problems through computation. More specificially, it deals with the limits to what problems (functions) are computable. An example of a famous problem that cannot in principle be solved by a computer is the halting problem.
+
+
+
+computation
+
+In a finite automata, a computation is a sequence of configurations for some length n≥0. In general, it is a series of operations that the machine performs.
+
+
+
+computational complexity theory
+
+A branch of the theory of computation in theoretical computer science and mathematics that focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other. An example is the study of NP-Complete problems.
+
+
+
+configuration
+
+For a finite automata, a complete specification for the current condition of the machine on some input string. This includes the current state that the machine is in, and the current condition of the string, including which character is about to be processed.
+
+
+
+Conjunctive Normal Form
+CNF
+
+A Boolean expression written as a series of clauses that are AND’ed together.
+
+
+
+connected component
+
+In an undirected graph, a subset of the nodes such that each node in the subset can be reached from any other node in that subset.
+
+
+
+connected graph
+
+An undirected graph is a connected graph if there is at least one path from any vertex to any other.
+
+
+
+constant running time
+
+The cost of a function whose running time is not related to its input size. In Theta notation, this is traditionally written as Θ(1).
+
+
+
+constructive induction
+
+A process for finding the closed form for a recurrence relation, that involves substituting in a guess for the closed form to replace the recursive part(s) of the recurrence. Depending on the goal (typically either to show that the hypothesized growth rate is right, or to find the precise constants), one then manipulates the resulting non-recursive equation.
+
+
+
+container
+container class
+
+A data structure that stores a collection of records. Typical examples are arrays, search trees, and hash tables.
+
+
+
+context-free grammar
+
+A grammar comprised only of productions of the form A→x, where A is a non-terminal and x is a series of one or more terminals and non-terminals. That is, the given non-terminal Acan be replaced at any time.
+
+
+
+context-free language
+
+The set of languages that can be defined by context-sensitive grammars.
+
+
+
+context-sensitive grammar
+
+A grammar comprised only of productions of the form xAy→xvy where A is a non-terminal and x and y are each a series of one or more terminals and non-terminals. That is, the given non-terminal A can be replaced only when it is within the proper context.
+
+
+
+cost
+
+The amount of resources that the solution consumes.
+
+
+
+cost model
+
+In algorithm analysis, a definition for the cost of each basic operation performed by the algorithm, along with a definition for the size of the input. Having these definitions allows us to calculate the cost to run the algorithm on a given input, and from there determine the growth rate of the algorithm. A cost model would be considered “good” if it yields predictions that conform to our understanding of reality.
+
+
+
+countably infinite
+countable
+
+A set is countably infinite if it contains a finite number of elements, or (for a set with an infinite number of elements) if there exists a one-to-one mapping from the set to the set of integers.
+
+
+
+CPU
+
+Acronym for Central Processing Unit, the primary processing device for a computer.
+
+
+
+current position
+
+A property of some list ADTs, where there is maintained a “current position” state that can be referred to later.
+
+
+
+cycle
+
+In graph terminology, a cycle is a path of length three or more that connects some vertex v1 to itself.
+
+
+
+cylinder
+
+A disk drive normally consists of a stack of platters. While this might not be so true today, traditionally all of the I/O heads moved together during a seek operation. Thus, when a given I/O head is positioned over a particular track on a platter, the other I/O heads are also positioned over the corresponding track on their platters. That collection of tracks is called a cylinder. A given cylinder represents all of the data that can be read from all of the platters without doing another seek operation.
+
+
+
+cylinder index
+
+In the ISAM system, a simple linear index that stores the lowest key value stored in each cylinder.
+
+
+
+cylinder overflow
+
+In the ISAM system, this is space reserved for storing any records that can not fit in their respective cylinder.
+

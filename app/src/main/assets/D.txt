@@ -1,0 +1,400 @@
+DAG
+
+Abbreviation for directed acyclic graph.
+
+
+
+data field
+
+In object-oriented programming, a synonym for data member.
+
+
+
+data item
+
+A piece of information or a record whose value is drawn from a type.
+
+
+
+data member
+
+The variables that together define the space required by a data item are referred to as data members. Some of the commonly used synonyms include data field, attribute, and instance variable.
+
+
+
+data structure
+
+The implementation for an ADT.
+
+
+
+data type
+
+A type together with a collection of operations to manipulate the type.
+
+
+
+deallocated
+deallocation
+
+Free the memory allocated to an unused object.
+
+
+
+debugging
+
+Correcting a program once we determine that it is not operating as we intend. This is in contrast to testing.
+
+
+
+decision problem
+
+A problem whose output is either “YES” or “NO”.
+
+
+
+decision tree
+
+A theoretical construct for modeling the behavior of algorithms. Each point at which the algorithm makes a decision (such as an if statement) is modeled by a branch in the tree that represents the algorithms behavior. Decision trees can be used in lower bounds proofs, such as the proof that sorting requires Ω(nlogn) comparisons in the worst case.
+
+
+
+deep copy
+
+Copying the actual content of a pointee.
+
+
+
+degree
+
+In graph terminology, the degree for a vertex is its number of neighbors. In a directed graph, the in degree is the number of edges directed into the vertex, and the out degree is the number of edges directed out of the vertex. In tree terminology, the degree for a node is its number of children.
+
+
+
+delegation mental model for recursion
+
+A way of thinking about the process of recursion. The recursive function “delegates” most of the work when it makes the recursive call. The advantage of the delegation mental model for recursion is that you don’t need to think about how the delegated task is performed. It just gets done.
+
+
+
+dense graph
+
+A graph where the actual number of edges is a large fraction of the possible number of edges. Generally, this is interpreted to mean that the degree for any vertex in the graph is relatively high.
+
+
+
+depth
+The depth of a node M in a tree is the length of the path from the root of the tree to M.
+
+
+
+depth-first search
+
+A graph traversal algorithm. Whenever a v is visited during the traversal, DFS will recursively visit all of v‘s unvisited neighbors.
+
+
+
+depth-first search tree
+
+A tree that can be defined by the operation of a depth-first search (DFS) on a graph. This tree would consist of the nodes of the graph and a subset of the edges of the graph that was followed during the DFS.
+
+
+
+dequeue
+
+A specialized term used to indicate removing an element from a queue.
+
+
+
+dereference
+
+Accessing the value of the pointee for some reference variable. Commonly, this happens in a language like Java when using the “dot” operator to access some field of an object.
+
+
+
+derivation
+
+In formal languages, the process of executing a series of production rules from a grammar. A typical example of a derivation would be the series of productions executed to go from the start symbol to a given string.
+
+
+
+descendant
+
+In a tree, the set of all nodes that have a node A as an ancestor are the descendants of A. In other words, all of the nodes that can be reached from A by progressing downwards in tree. Another way to say it is: The children of A, their children, and so on.
+
+
+
+deserialization
+
+The process of returning a serialized representation for a data structure back to its original in-memory form.
+
+
+
+design pattern
+
+An abstraction for describing the design of programs, that is, the interactions of objects and classes. Experienced software designers learn and reuse patterns for combining software components, and design patterns allow this design knowledge to be passed on to new programmers more quickly.
+
+
+
+deterministic
+
+Any finite automata in which, for every pair of state and symbol, there is only a single transition. This means that whenever the machine is in a given state and sees a given symbol, only a single thing can happen. This is in contrast to a non-deterministic finite automata, which has at least one state with multiple transitions on at least one symbol.
+
+
+
+deterministic algorithm
+
+An algorithm that does not involve any element of randomness, and so its behavior on a given input will always be the same. This is in contrast to a randomized algorithm.
+
+
+
+Deterministic Finite Automata
+Deterministic Finite Acceptor
+DFA
+
+An automata or abstract machine that can process an input string (shown on a tape) from left to right. There is a control unit (with states), behavior defined for what to do when in a given state and with a given symbol on the current square of the tape. All that we can “do” is change state before going to the next letter to the right.
+
+
+
+DFS
+
+Abbreviation for depth-first search.
+
+
+
+diagonalization argument
+
+A proof technique for proving that a set is uncountably infinite. The approach is to show that, no matter what order the elements of the set are put in, a new element of the set can be constructed that is not in that ordering. This is done by changing the ith value or position of the element to be different from that of the ith element in the proposed ordering.
+
+
+
+dictionary
+
+An abstract data type or interface for a data structure or software subsystem that supports insertion, search, and deletion of records.
+
+
+
+dictionary search
+
+A close relative of an interpolation search. In a classical (paper) dictionary of words in a natural language, there are markings for where in the dictionary the words with a given letter start. So in typical usage of such a dictionary, words are found by opening the dictionary to some appropriate place within the pages that contain words starting with that letter.
+
+
+
+digraph
+
+Abbreviation for directed graph.
+
+
+
+Dijkstra’s algorithm
+
+An algorithm to solve the single-source shortest paths problem in a graph. This is a greedy algorithm. It is nearly identical to Prim’s algorithm for finding a minimal-cost spanning tree, with the only difference being the calculation done to update the best-known distance.
+
+
+
+diminishing increment sort
+
+Another name for Shellsort.
+
+
+
+direct access
+
+A storage device, such as a disk drive, that has some ability to move to a desired data location more-or-less directly. This is in contrast to a sequential access storage device such as a tape drive.
+
+
+
+direct proof
+
+In general, a direct proof is just a “logical explanation”. A direct proof is sometimes referred to as an argument by deduction. This is simply an argument in terms of logic. Often written in English with words such as “if … then”, it could also be written with logic notation such as P⇒Q.
+
+
+
+directed acyclic graph
+
+A graph with no cycles. Abbreviated as DAG. Note that a DAG is not necessarily a tree since a given node might have multiple parents.
+
+
+
+directed edge
+
+An edge that goes from vertex to another. In contrast, an undirected edge simply links to vertices without a direction.
+
+
+
+directed graph
+
+A graph whose edges each are directed from one of its defining vertices to the other.
+
+
+
+dirty bit
+
+Within a buffer pool, a piece of information associated with each buffer that indicates whether the contents of the buffer have changed since being read in from backing storage. When the buffer is flushed from the buffer pool, the buffer’s contents must be written to the backing storage if the dirty bit is set (that is, if the contents have changed). This means that a relatively expensive write operation is required. In contrast, if the dirty bit is not set, then it is unnecessary to write the contents to backing storage, thus saving time over not keeping track of whether the contents have changed or not.
+
+
+
+Discrete Fourier Transform
+DFT
+
+Let a=[a0,a1,...,an−1]T
+ be a vector that stores the coefficients for a polynomial being evaluated. We can then do the calculations to evaluate the polynomial at the n
+ th rootsofunity<nthrootsofunit>
+ by multiplying the Az
+ matrix by the coefficient vector. The resulting vector Fz
+ is called the Discrete Fourier Transform (or DFT) for the polynomial.
+
+
+
+discriminator
+
+A part of a multi-dimensional search key. Certain tree data structures such as the bintree and the kd tree operate by making branching decisions at nodes of the tree based on a single attribute of the multi-dimensional key, with the attribute determined by the level of the node in the tree. For example, in 2 dimensions, nodes at the odd levels in the tree might branch based on the x
+ value of a coordinate, while at the even levels the tree would branch based on the y
+ value of the coordinate. Thus, the x
+ coordinate is the discriminator for the odd levels, while the y
+ coordinate is the discriminator for the even levels.
+
+
+
+disjoint
+
+Two parts of a data structure or two collections with no objects in common are disjoint. This term is often used in conjunction with a data structure that has nodes (such as a tree). Also used in the context of sets, where two subsets are disjoint if they share no elements.
+
+
+
+disjoint sets
+
+A collection of sets, any pair of which share no elements in common. A collection of disjoint sets partitions some objects such that every object is in exactly one of the disjoint sets.
+
+
+
+disk access
+
+The act of reading data from a disk drive (or other form of peripheral storage). The number of times data must be read from (or written to) a disk is often a good measure of cost for an algorithm that involves disk I/O, since this is usually the dominant cost.
+
+
+
+disk controller
+
+The control mechanism for a disk drive. Responsible for the action of reading or writing a sector of data.
+
+
+
+disk drive
+
+An example of peripheral storage or secondary storage. Data access times are typically measured in thousandths of a second (milliseconds), which is roughly a million times slower than access times for RAM, which is an example of a primary storage device. Reads from and writes to a disk drive are always done in terms of some minimum size, which is typically called a block. The block size is 512 bytes on most disk drives. Disk drives and RAM are typical parts of a computer’s memory hierarchy.
+
+
+
+disk I/O
+
+Refers to the act of reading data from or writing data to a disk drive. All disk reads and writes are done in units of a sector or block.
+
+
+
+disk-based space/time tradeoff
+
+In contrast to the standard space/time tradeoff, this principle states that the smaller you can make your disk storage requirements, the faster your program will run. This is because the time to read information from disk is enormous compared to computation time, so almost any amount of additional computation needed to unpack the data is going to be less than the disk-reading time saved by reducing the storage requirements.
+
+
+
+distance
+
+In graph representations, a synonym for weight.
+
+
+
+divide and conquer
+
+A technique for designing algorithms where a solution is found by breaking the problem into smaller (similar) subproblems, solving the subproblems, then combining the subproblem solutions to form the solution to the original problem. This process is often implemented using recursion.
+
+
+
+divide-and-conquer recurrences
+
+A common form of recurrence relation that have the form
+
+T(n)=aT(n/b)+cnk;T(1)=c
+where a
+, b
+, c
+, and k
+ are constants. In general, this recurrence describes a problem of size n
+ divided into a
+ subproblems of size n/b
+, while cnk
+ is the amount of work necessary to combine the partial solutions.
+
+
+
+divide-and-guess
+
+A technique for finding a closed-form solution to a summation or recurrence relation.
+
+
+
+domain
+
+The set of possible inputs to a function.
+
+
+
+double buffering
+
+The idea of using multiple buffers to allow the CPU to operate in parallel with a peripheral storage device. Once the first buffer’s worth of data has been read in, the CPU can process this while the next block of data is being read from the peripheral storage. For this idea to work, the next block of data to be processed must be known or predicted with reasonable accuracy.
+
+
+
+double hashing
+
+A collision resolution method. A second hash function is used to generate a value c
+ on the key. That value is then used by this key as the step size in linear probing by steps. Since different keys use different step sizes (as generated by the second hash function), this process avoids the clustering caused by standard linear probing by steps.
+
+
+
+double rotation
+
+A type of rebalancing operation used by the Splay Tree and AVL Tree.
+
+
+
+doubly linked list
+
+A linked list implementation variant where each list node contains access pointers to both the previous element and the next element on the list.
+
+
+
+DSA
+
+Abbreviation for Data Structures and Algorithms.
+
+
+
+dynamic
+
+Something that is changes (in contrast to static). In computer programming, dynamic normally refers to something that happens at run time. For example, run-time analysis is analysis of the program’s behavior, as opposed to its (static) text or structure Dynamic binding or dynamic memory allocation occurs at run time.
+
+
+
+dynamic allocation
+
+The act of creating an object from free store. In C++, Java, and JavaScript, this is done using the new operator.
+
+
+
+dynamic array
+
+Arrays, once allocated, are of fixed size. A dynamic array puts an interface around the array so as to appear to allow the array to grow and shrink in size as necessary. Typically this is done by allocating a new copy, copying the contents of the old array, and then returning the old array to free store. If done correctly, the amortized cost for dynamically resizing the array can be made constant. In some programming languages such as Java, the term vector is used as a synonym for dynamic array.
+
+
+
+dynamic memory allocation
+
+A programming technique where linked objects in a data structure are created from free store as needed. When no longer needed, the object is either returned to free store or left as garbage, depending on the programming language.
+
+
+
+dynamic programming
+
+An approach to designing algorithms that works by storing a table of results for subproblems. A typical cause for excessive cost in recursive algorithms is that different branches of the recursion might solve the same subproblem. Dynamic programming uses a table to store information about which subproblems have already been solved, and uses the stored information to immediately give the answer for any repeated attempts to solve that subproblem.
+

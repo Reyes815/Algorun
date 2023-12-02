@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="730dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCProgTutor"
+            android:layout_width="316dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:height="30dp"
+            android:background="@drawable/ctutor_thumb"
+            />
+
+
+        <TextView
+            android:id="@+id/txtCTutor"
+            android:layout_width="309dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:text="@string/cprog_link" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCppProgTutor"
+            android:layout_width="316dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:height="30dp"
+            android:background="@drawable/cpptutor_thumb"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtCppTutor"
+            android:layout_width="309dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/cpp_link"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnJavaProgTutor"
+            android:layout_width="316dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:height="30dp"
+            android:background="@drawable/javatutor_thumb"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtJavaTutor"
+            android:layout_width="309dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/java_link"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</ScrollView>

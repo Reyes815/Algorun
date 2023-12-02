@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Themes"
+    tools:ignore="ExtraText">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDef"
+        android:layout_width="403dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/nc_defbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNeo"
+        android:layout_width="403dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/nc_neobtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDark"
+        android:layout_width="403dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/nc_darkbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

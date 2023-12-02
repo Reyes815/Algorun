@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Algorun</string>
+    <string name="activity_link"><u>Create an account</u></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="cprog_link"><a href="https://www.youtube.com/watch?v=KJgsSFOSQv0">C Programming Tutorial for Beginners</a></string>
+    <string name="cpp_link"><a href="https://www.youtube.com/watch?v=ZzaPdXTrSb8">C++ Tutorial for Beginners - Learn C++ in 1 Hour</a></string>
+    <string name="java_link"><a href="https://youtu.be/eIrMbAQSU34">Java Tutorial for Beginners</a></string>
+    <string name="begin">Beginner</string>
+    <string name="med">Medium</string>
+    <string name="adv">Advanced</string>
+    <!-- DEFINITIONS-->
+    <string name="algo_def">An algorithm is a set of instructions that are followed to solve a problem. It is a computer\'s thought process.</string>
+    <string name="argu_def">An argument is a way to provide more information to a function. The function can then use that information as it runs, like a variable."</string>
+    <string name="arr_def">Arrays are containers that hold variables; they are used to group together similar variables.</string>
+
+
+</resources>

@@ -1,0 +1,472 @@
+<resources>
+
+    <string name="cprog_link"><a href="https://www.youtube.com/watch?v=KJgsSFOSQv0">C Programming Tutorial for Beginners</a></string>
+    <string name="cpp_link"><a href="https://www.youtube.com/watch?v=ZzaPdXTrSb8">C++ Tutorial for Beginners - Learn C++ in 1 Hour</a></string>
+    <string name="java_link"><a href="https://youtu.be/eIrMbAQSU34">Java Tutorial for Beginners</a></string>
+    <string name="begin">Beginner</string>
+    <string name="med">Medium</string>
+    <string name="adv">Advanced</string>
+    <!-- DEFINITIONS-->
+    <string name="algo_def">An algorithm is a set of instructions that are followed to solve a problem. It is a computer\'s thought process.</string>
+    <string name="argu_def">An argument is a way to provide more information to a function. The function can then use that information as it runs, like a variable."</string>
+    <string name="arr_def">Arrays are containers that hold variables; they are used to group together similar variables.</string>
+
+    <string name="app_name">Algorun</string>
+    <string name="forgot_pass"><u>Forgot Password</u></string>
+    <string name="Create_Account"><u>Create an Account</u></string>
+    <string name="title_activity_algorithm_menu">Algorithm_Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Logo">Algorun Logo</string>
+    <string name="title_activity_algorun">Algorun</string>
+    <string-array name="language">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+    </string-array>
+    <string-array name="Difficulty">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_terms">Terminologies</string>
+    <string name="title_activity_vids">Video Lectures</string>
+    <string name="title_activity_studio">Self-Studio</string>
+    <string name="title_activity_map">Progress Map</string>
+    <string name="title_activity_Themes">Themes</string>
+    <string name="title_activity_algo">Algorithms</string>
+    <string name="title_activity_easy">Easy Quiz</string>
+    <string name="title_activity_medium">Medium Quiz</string>
+    <string name="title_activity_hard">Hard Quiz</string>
+    <string name="title_activity_bgnr">Beginner Algorithm</string>
+    <string name="title_activity_inter">Intermediate Algorithm</string>
+    <string name="title_activity_adv">Advanced Algorithm</string>
+
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="BA1C">#include &lt;stdio.h&gt;
+        \nint main() {
+        \nint i, n ;
+        \nprintf("Enter the number :");
+        \nscanf("%d", &amp;n);
+        \nfor (i=1; i&lt;=n; i++)
+        \n{
+        \nif (i%15 == 0)
+        \n\t    printf ("FizzBuzz\t");
+        \nelse if ((i%3) == 0)
+        \n\t    printf("Fizz\t");
+        \nelse if ((i%5) == 0)
+        \n\t    printf("Buzz\t");
+        \nelse printf("%d\t", i);
+        \n}
+        \nreturn 0; }</string>
+
+    <string name="BA1Cpp">#include &lt;stdio.h&gt;
+        \nusing namespace std;
+        \nint main(){
+        \nfor (int i=1; i&lt;=100; i++){
+        \n\t    if (i%15 == 0)
+        \n\t\t         cout&lt;&lt;"Fizz Buzz,\t";
+        \n\t    else if ((i%3) == 0)
+        \n\t\t         cout&lt;&lt;"Fizz,\t";
+        \n\t    else if ((i%5) == 0)
+        \n\t\t         cout&lt;&lt;"Buzz,\t";
+        \n\t    else
+        \n\t\t         cout&lt;&lt;i&lt;&lt;",\t";
+        \n}
+        \nreturn 0; }
+    </string>
+    <string name="BA1Java">int end = 100;
+        \nfor (int i = 1; i &lt;= end; i++) {
+        \nif (((i % 5) == 0) &amp;&amp; ((i % 7) == 0))
+        \n{
+        \n\t         System.out.println("fizzbuzz");
+        \n} else if ((i % 5) == 0)
+        \n{
+        \n\t        System.out.println("fizz");
+        \n} else if ((i % 7) == 0)
+        \n{
+        \n\t         System.out.println("buzz");
+        \n} else {
+        \n\t         System.out.println(i);
+        \n}
+        \n}
+    </string>
+
+
+    <string name="BA2C">#include &lt;iostream&gt;
+    \nusing namespace std;
+    \nvoid bubbleSort(int* arr, int n){
+    \nint temp;
+    \nfor(int j = 0; j &lt; n; j++){
+    \nfor(int k = 0; k &lt; (n-j-1); k++){
+    \nif(arr[k] > arr[k+1]){
+    \ntemp = arr[k];
+    \narr[k] = arr[k+1];
+    \narr[k+1] = temp;
+    \nprint();
+    \n}
+    \n}
+    \n}
+    \n}
+    </string>
+
+    <string name="BA2Cpp">#include &lt;iostream&gt;
+    \nusing namespace std;
+    \nvoid bubbleSort(int* arr, int n){
+    \nint temp;
+    \nfor(int j = 0; j &lt; n; j++){
+    \nfor(int k = 0; k &lt; (n-j-1); k++){
+    \nif(arr[k] > arr[k+1]){
+    \ntemp = arr[k];
+    \narr[k] = arr[k+1];
+    \narr[k+1] = temp;
+    \nprint();
+    \n}
+    \n}
+    \n}
+    \n}
+    </string>
+    <string name="BA2Java">package demo;
+        \nimport static implicit_code.ImplicitDeclarations.print;
+
+        \npublic class DemoTranslation {
+        \n    public static void bubbleSort(int[] arr, int n) {
+        \n       int temp;
+        \n        for(int j = 0; j &lt; n; j++) {
+        \n           for(int k = 0; k &lt; n - j - 1; k++) {
+        \n              if(arr[k] > arr[k + 1]) {
+        \n                  temp = arr[k];
+        \n                    arr[k] = arr[k + 1];
+        \n                    arr[k + 1] = temp;
+        \n                    print();
+        \n                }
+        \n            }
+        \n        }
+        \n    }
+        \n}
+    </string>
+    //-----------------------------------------------------------//
+    <string name="IA1C">#include &lt;stdio.h&gt;
+        \nint Check_Neon_Number(int num) {
+        \n
+        \n// Calculating the square of the number
+        \nint square = num * num;
+        \n// Copying the square in a variable
+        \n// to extract the digit
+        \nint n = square;
+        \n
+        \n// Declaring a variable to store the digits
+        \nint digit;
+        \n
+        \n// Initializing a variable to
+        \n// calculate the sum of digits
+        \nint sum = 0;
+        \n
+        \n// To calculate the sum of digits
+        \nwhile (n != 0) {
+        \n
+        \n    // Extracting the digit
+        \n    digit = n % 10;
+        \n    sum = sum + digit;
+        \n    n = n / 10;
+        \n}
+        \n
+        \n// Checking the condition of a Neon Number
+        \nif (sum == num)
+        \n    return 1; // If condition is true.
+        \nelse
+        \n    return 0; // If condition is false.
+\n    }
+    \n
+\n    // Driver Code
+\n    int main()
+\n    {
+\n        int num = 9;
+ \n
+\n        // Calling the function
+\n        int ans = Check_Neon_Number(num);
+\n        if (ans == 1)
+\n
+            \n// The number is Neon
+            \nprintf("true");
+        \nelse
+
+            \n// The number is not Neon
+            \nprintf("false");
+        \nreturn 0;
+\n}</string>
+
+    <string name="IA1Cpp">#include &lt;iostream&gt;
+\nusing namespace std;
+\n
+\nint main()
+\n{
+\n  int num;
+\n
+  \ncout &lt;&lt; "Enter the number: ";
+  \ncin >> num;
+\n
+\n  int square = num * num;
+  \nint sum = 0;
+\n
+  \nwhile (square > 0)
+  \n{
+    \nint lastDigit = square % 10;
+    \nsum = sum + lastDigit;
+    \nsquare = square / 10;
+  \n}
+\n
+  \nif (sum == num)
+    \ncout &lt;&lt; num &lt;&lt; " is a Neon number";
+  \nelse
+    \ncout &lt;&lt; num &lt;&lt; " is NOT a Neon number";
+\n
+  \nreturn 0;
+\n}
+    </string>
+    <string name="IA1Java">
+        import java.util.*;
+\npublic class NeonNumberExample1
+\n{
+\npublic static void main(String args[])
+\n{
+\nint sum = 0, n;
+\nScanner sc = new Scanner(System.in);
+\nSystem.out.print("Enter the number to check: ");
+\n//reads an integer from the user
+\nn = sc.nextInt();
+\n//calculate square of the given number
+\nint square = n * n;
+\n//loop executes until the condition becomes false
+\nwhile(square != 0)
+\n{
+\n//find the last digit of the square
+\nint digit = square % 10;
+\n//adds digits to the variable sum
+\nsum = sum + digit;
+\n//removes the last digit of the variable square
+\nsquare = square / 10;
+\n}
+\n//compares the given number (n) with sum
+\nif(n == sum)
+\nSystem.out.println(n + " is a Neon Number.");
+\nelse
+\nSystem.out.println(n + " is not a Neon Number.");
+\n}
+\n}
+    </string>
+
+
+    <string name="IA2C">
+        #include &lt;stdio.h&gt;
+        \n
+\nvoid print_table(int range, int num)
+\n{
+\n    // Declaring a variable mul to store the  product.
+  \n  int mul;
+ \n
+   \n // For loop to calculate the Multiplication table.
+    \nfor (int i = 1; i &lt;= range; i++) {
+      \n  // To store the product.
+        \nmul = num * i;
+ \n
+   \n     // Printing the Multiplication Table.
+     \n   printf("%d * %d = %d", num, i, mul);
+ \n
+   \n     // Proceeding to the next line.
+     \n   printf("\n");
+    \n}
+\n}
+    </string>
+
+    <string name="IA2Cpp">
+    #include &lt;iostream&gt;
+    \nusing namespace std;
+\n
+    \nint main() {
+\n
+    \nint n;
+\n
+    \ncout &lt;&lt; "Enter a positive integer: ";
+    \ncin >> n;
+\n
+    \n// run a loop from 1 to 10
+    \n// print the multiplication table
+    \nfor (int i = 1; i &lt;= 10; ++i) {
+    \n    cout &lt;&lt; n &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; n * i &lt;&lt; endl;
+    \n}
+    \n
+    \nreturn 0;
+\n}
+    </string>
+    <string name="IA2Java">
+    import java.util.Scanner;
+\npublic class Multiplication_Table
+\n{
+    \npublic static void main(String[] args)
+    \n{
+        \nScanner s = new Scanner(System.in);
+	\nSystem.out.print("Enter number:");
+	\nint n=s.nextInt();
+        \nfor(int i=1; i &lt;= 10; i++)
+        \n{
+            \nSystem.out.println(n+" * "+i+" = "+n*i);
+        \n}
+   \n }
+\n}
+    </string>
+
+//-----------------------------------------------------------------//
+    <string name="AA1C">#include &lt;stdio.h&gt;
+ \n
+\nint main()
+\n{
+\n
+\n    int rows, columns, number = 1, n = 5;
+\n
+\n    // first for loop is used to identify number of rows
+\n    for (rows = 0; rows &lt;= n; rows++) {
+\n
+\n        // second for loop is used to identify number of
+\n        // columns and here the values will be changed
+\n        // according to the first for loop
+\n        for (columns = 0; columns &lt; rows; columns++) {
+\n
+\n            // printing number pattern based on the number
+\n            // of columns
+\n            printf("%d ", number);
+\n
+\n            // incrementing number at each column to print
+\n            // the next number
+\n            number++;
+\n        }
+\n
+\n        // print the next line for each row
+\n        printf("\n");
+\n    }
+\n    return 0;
+\n}</string>
+
+    <string name="AA1Cpp">#include &lt;iostream&gt;
+\nusing namespace std;
+\n
+\nint main() {
+\n
+\n    int rows, number = 1;
+\n
+\n    cout &lt;&lt; "Enter number of rows: ";
+\n    cin >> rows;
+\n
+\n    for(int i = 1; i &lt;= rows; i++) {
+\n        for(int j = 1; j &lt;= i; ++j) {
+\n            cout &lt;&lt; number &lt;&lt; " ";
+\n            ++number;
+\n        }
+\n
+\n        cout &lt;&lt; endl;
+\n    }
+\n
+\n    return 0;
+\n}
+    </string>
+    <string name="AA1Java">
+        import java.util.*;
+        \nclass GFG {
+\n
+\n    // Main driver method
+\n    public static void main(String[] args)
+\n    {
+\n        // No of rows to be printed
+\n        int n = 5;
+\n
+\n        // Creating and initializing variable for
+\n        // rows, columns and display value
+\n        int i, j, k = 1;
+\n
+\n        // Nested iterating for 2D matrix
+\n        // Outer loop for rows
+\n        for (i = 1; i &lt;= n; i++) {
+\n
+\n            // Inner loop for columns
+\n            for (j = 1; j &lt;= i; j++) {
+\n
+\n                // Printing value to be displayed
+\n                System.out.print(k + "  ");
+\n
+\n                // Incremeting value displayed
+\n                k++;
+\n            }
+\n
+\n            // Print elements of next row
+\n            System.out.println();
+\n        }
+\n    }
+\n}
+    </string>
+
+
+    <string name="AA2C">
+        #include &lt;stdio.h&gt;
+        \n
+\n// defining the function
+\nint primenumber(int number)
+\n{
+\n    int i;
+\n
+\n    // condition for checking the
+\n    // given number is prime or
+\n    // not
+\n    for (i = 2; i &lt;= number / 2; i++) {
+\n        if (number % i != 0)
+\n            continue;
+\n        else
+\n            return 1;
+\n    }
+\n    return 0;
+\n}
+    </string>
+
+    <string name="AA2Cpp">
+    #include &lt;iostream&gt;
+    \nbool check_prime(int n) {
+  \nbool is_prime = true;
+\n
+\n  // 0 and 1 are not prime numbers
+\n  if (n == 0 || n == 1) {
+\n    is_prime = false;
+\n  }
+\n
+\n  for (int i = 2; i &lt;= n / 2; ++i) {
+\n    if (n % i == 0) {
+\n      is_prime = false;
+\n      break;
+\n    }
+\n  }
+\n
+\n  return is_prime;
+\n}
+    </string>
+    <string name="AA2Java">
+static  boolean isPrime(int num)
+    \n {
+\n         if(num&lt;=1)
+\n         {
+\n             return false;
+\n         }
+\n        for(int i=2;i&lt;=num/2;i++)
+\n        {
+\n            if((num%i)==0)
+\n                return  false;
+\n        }
+\n        return true;
+\n    }
+    </string>
+</resources>

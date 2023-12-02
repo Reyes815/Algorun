@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Algorun"
+        tools:targetApi="31">
+        <activity
+            android:name=".VideoLectures"
+            android:exported="false"
+            android:label="@string/title_activity_quiz"/>
+        <activity
+            android:name=".Themes"
+            android:exported="false"
+            android:label="@string/title_activity_Themes"/>
+        <activity
+            android:name=".ProgressMap"
+            android:exported="false"
+            android:label="@string/title_activity_map"/>
+        <activity
+            android:name=".Terminologies"
+            android:exported="false"
+            android:label="@string/title_activity_terms"/>
+        <activity
+            android:name=".advance_algorithms"
+            android:exported="false"
+            android:label="@string/title_activity_adv"/>
+        <activity
+            android:name=".medium_algorithms"
+            android:exported="false"
+            android:label="@string/intermediate"/>
+        <activity
+            android:name=".easy_algorithms"
+            android:exported="false"
+            android:label="@string/title_activity_bgnr"/>
+        <activity
+            android:name=".quiz"
+            android:exported="false"
+            android:label="@string/title_activity_quiz"/>
+        <activity
+            android:name=".self_studio"
+            android:exported="false"
+            android:label="@string/title_activity_studio"/>
+        <activity
+            android:name=".algorithms"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="Register"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+    </application>
+
+</manifest>

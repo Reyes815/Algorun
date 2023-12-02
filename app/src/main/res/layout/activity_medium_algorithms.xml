@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".easy_algorithms">
+
+
+        <TextView
+            android:id="@+id/txtMultTblCode"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_border"
+            android:padding="10dp"
+            android:text="@string/IA2C"
+
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtMultTblDesc" />
+
+        <TextView
+            android:id="@+id/txtMultTblDesc"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_border"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text=""
+
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtMultTbl" />
+
+        <TextView
+            android:id="@+id/txtMultTbl"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_border"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="Multiplication Table"
+
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtNeonCode" />
+
+        <TextView
+            android:id="@+id/txtNeonDesc"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_border"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text=""
+
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtNeon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSwitch"
+            android:layout_width="122dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:text="Switch"
+
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.906"
+            app:layout_constraintStart_toEndOf="@+id/algoSpinner"
+            app:layout_constraintTop_toBottomOf="@+id/txtIntermAlgorithm" />
+
+        <Spinner
+            android:id="@+id/algoSpinner"
+            android:layout_width="111dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="197dp"
+            android:background="@drawable/button_drawable"
+            android:padding="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtIntermAlgorithm" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="45dp"
+            android:layout_height="1514dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="44dp"
+            android:layout_height="1406dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNeon"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_border"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="C Program To Check Neon Number"
+
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/algoSpinner" />
+
+        <TextView
+            android:id="@+id/txtIntermAlgorithm"
+            android:layout_width="297dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="75dp"
+            android:text="Intermediate Algorithms"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNeonCode"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_border"
+            android:padding="10dp"
+            android:text="@string/IA1C"
+
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/txtNeonDesc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

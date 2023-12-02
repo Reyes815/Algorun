@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout25"
+        android:layout_width="53dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Create Account"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_drawable"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout25"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextConfirmPassword" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout24"
+        android:layout_width="53dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"></LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

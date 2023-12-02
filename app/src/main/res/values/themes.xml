@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Algorun" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/olivine</item>
+        <item name="colorPrimaryVariant">@color/parchment</item>
+    </style>
+
+    <style name="Tea" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/olivine</item> <!-- button color by default-->
+        <item name="colorPrimaryVariant">@color/chamoisee</item>
+        <item name="colorOnPrimary">@color/umber</item>  <!-- button text color-->
+        <item name="android:textColor">@color/umber</item>
+        <item name="android:statusBarColor">@color/olivine</item>
+        <item name="android:colorBackground">@color/parchment</item>
+        <item name="android:buttonStyle">@style/TeaButton</item>
+        <item name="android:colorButtonNormal">@color/tea_green</item>
+        <item name="android:textColorHint">@color/umber</item>
+        <item name="android:itemBackground">@color/parchment</item>
+        <item name = "android:editTextColor">@color/umber</item>
+
+        <item name="colorButtonNormal">@color/tea_green</item>
+        <item name = "textOutlineColor">@color/umber</item>
+
+        <item name="backgroundColor">@color/parchment</item>
+        <item name = "colorSecondary">@color/olivine</item>
+
+        <item name="radioButtonStyle">@style/TeaCustomRadioButton</item>
+    </style>
+
+    <style name="Dark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item> <!-- button color by default-->
+        <item name="colorPrimaryVariant">@color/des_blue</item> <!-- button text color-->
+        <item name="colorOnPrimary">@color/light_blue</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:colorBackground">@color/dark_blue</item>
+        <item name="android:buttonStyle">@style/DarkButton</item>
+        <item name="android:colorButtonNormal">@color/des_blue</item>
+        <item name="android:textColorHint">@color/light_blue</item>
+        <item name="android:itemBackground">@color/dark_blue</item>
+        <item name = "android:editTextColor">@color/light_blue</item>
+
+        <item name="colorButtonNormal">@color/des_blue</item>
+        <item name = "textOutlineColor">@color/light_blue</item>
+
+        <item name="backgroundColor">@color/dark_blue</item>
+        <item name = "colorSecondary">@color/des_blue</item>
+        <item name="radioButtonStyle">@style/DarkCustomRadioButton</item>
+    </style>
+
+    <style name="Neo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/dark_teal</item> <!-- button color by default-->
+        <item name="colorOnPrimary">@color/semi_teal</item> <!-- button text color-->
+        <item name="android:textColor">@color/teal</item>
+        <item name="android:statusBarColor">@color/dark_teal</item>
+        <item name="android:colorBackground">@color/dirty_white</item>
+        <item name="android:textColorHint">@color/teal</item>
+        <item name = "android:editTextColor">@color/teal</item>
+        <item name="android:itemBackground">@color/dirty_white</item>
+        <item name="android:buttonStyle">@style/NeoButton</item>
+
+        <item name="colorButtonNormal">@color/pale_blue</item>
+        <item name = "textOutlineColor">@color/teal</item>
+
+        <item name="color">@color/dirty_white</item>
+
+        <item name="backgroundColor">@color/dirty_white</item>
+        <item name = "colorSecondary">@color/semi_teal</item>
+
+        <item name="radioButtonStyle">@style/NeoCustomRadioButton</item>
+    </style>
+
+    <style name="TeaButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/umber</item>
+        <item name="android:background">@color/tea_green</item>
+    </style>
+
+    <style name="DarkButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:background">@color/des_blue</item>
+    </style>
+
+    <style name="NeoButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/teal</item>
+        <!-- Customize button background color -->
+        <item name="android:background">@color/pale_blue</item>
+    </style>
+
+    <style name="TeaCustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/umber</item>
+        <!-- other attributes specific to RadioButton style -->
+    </style>
+
+    <style name="DarkCustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/light_blue</item>
+        <!-- other attributes specific to RadioButton style -->
+    </style>
+
+    <style name="NeoCustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/teal</item>
+        <!-- other attributes specific to RadioButton style -->
+    </style>
+
+
+
+
+</resources>

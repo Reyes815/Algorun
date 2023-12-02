@@ -1,0 +1,260 @@
+Abstract data type
+
+Abbreviated ADT. The specification of a data type within some language, independent of an implementation. The interface for the ADT is defined in terms of a type and a set of operations on that type. The behavior of each operation is determined by its inputs and outputs. An ADT does not specify how the data type is implemented. These implementation details are hidden from the user of the ADT and protected from outside access, a concept referred to as encapsulation.
+
+
+
+Accept
+
+When a finite automata executes on a string and terminates in an accepting state, it is said to accept the string. The finite automata is said to accept the language that consists of all strings for which the finite automata completes execution in an accepting state.
+
+
+
+Accepting state
+
+Part of the definition of a finite automata is to designate some states as accepting states. If the finite automata executes on an input string and completes the computation in an accepting state, then the machine is said to accept the string.
+
+
+
+Acceptor
+
+In formal languages, any machine whose primary purpose is to determine whether a string is accepted (is recognized to be in a language) or rejected. This is in contrast to a machine that computes some value.
+
+
+
+Activation record
+
+The entity that is stored on the runtime stack during program execution. It stores any active local variable and the return address from which a new subroutine is being called, so that this information can be recovered when the subroutine terminates.
+
+
+
+Acyclic graph
+
+In graph terminology, a graph that contains no cycles.
+
+
+
+Address
+
+A location in memory.
+
+
+
+Adjacency list
+
+An implementation for a graph that uses an (array-based) list to represent the vertices of the graph, and each vertex is in turn represented by a (linked) list of the vertices that are neighbors.
+
+
+
+Adjacency matrix
+
+An implementation for a graph that uses a 2-dimensional array where each row and each column corresponds to a vertex in the graph. A given row and column in the matrix corresponds to an edge from the vertex corresponding to the row to the vertex corresponding to the column.
+
+
+
+Adjacent
+
+Two nodes of a tree or two vertices of a graph are said to be adjacent if they have an edge connecting them. If the edge is directed from a
+ to b
+, then we say that a
+ is adjacent to b
+, and b
+ is adjacent from a
+.
+
+
+
+ADT
+
+Abbreviation for abstract data type.
+
+
+
+Adversary
+
+A fictional construct introduced for use in an adversary argument.
+
+
+
+Adversary argument
+
+A type of lower bounds proof for a problem where a (fictional) “adversary” is assumed to control access to an algorithm’s input, and which yields information about that input in such a way that will drive the cost for any proposed algorithm to solve the problem as high as possible. So long as the adversary never gives an answer that conflicts with any previous answer, it is permitted to do whatever necessary to make the algorithm require as much cost as possible.
+
+
+
+Aggregate type
+
+A data type whose members have subparts. For example, a typical database record. Another term for this is composite type.
+
+
+
+Algorithm
+
+A method or a process followed to solve a problem.
+
+
+
+Algorithm analysis
+
+A less formal version of the term asymptotic algorithm analysis, generally used as a synonym for asymptotic analysis.
+
+
+
+Alias
+
+Another name for something. In programming, this usually refers to two references that refer to the same object.
+
+
+
+All-pairs shortest paths problem
+
+Given a graph with weights or distances on the edges, find the shortest paths between every pair of vertices in the graph. One approach to solving this problem is Floyd’s algorithm, which uses the dynamic programming algorithmic technique.
+
+
+
+Allocated
+Allocation
+
+Reserving memory for an object in the Heap memory.
+
+
+
+Alphabet
+
+The characters or symbols that strings in a given language may be composed of.
+
+
+
+Alphabet trie
+
+A trie data structure for storing variable-length strings. Level i
+ of the tree corresponds to the letter in position i
+ of the string. The root will have potential branches on each intial letter of string. Thus, all strings starting with “a” will be stored in the “a” branch of the tree. At the second level, such strings will be separated by branching on the second letter.
+
+
+
+Amortized analysis
+
+An algorithm analysis techique that looks at the total cost for a series of operations and amortizes this total cost over the full series. This is as opposed to considering every individual operation to independently have the worst case cost, which might lead to an overestimate for the total cost of the series.
+
+
+
+Amortized cost
+
+The total cost for a series of operations to be used in an amortized analysis.
+
+
+
+Ancestor
+
+In a tree, for a given node A
+, any node on a path from A
+ up to the root is an ancestor of A
+.
+
+
+
+Antisymmetric
+
+In set notation, relation R
+ is antisymmetric if whenever aRb
+ and bRa
+, then a=b
+, for all a,b∈S
+.
+
+
+
+Approximation algorithm
+
+An algorthm for an optimization problem that finds a good, but not necessarily cheapest, solution.
+
+
+
+Arm
+
+In the context of an I/O head, this attaches the sensor on the I/O head to the boom.
+
+
+
+Array
+A data type that is used to store elements in consecutive memory locations and refers to them by an index.
+
+
+
+Array-based list
+An implementation for the list ADT that uses an array to store the list elements. Typical implementations fix the array size at creation of the list, and the overhead is the number of array positions that are presently unused.
+
+
+
+Array-based queue
+
+Analogous to an array-based list, this uses an array to store the elements when implementing the queue ADT.
+
+
+
+Array-based stack
+
+Analogous to an array-based list, this uses an array to store the elements when implementing the stack ADT.
+
+
+
+ASCII character coding
+
+American Standard Code for Information Interchange. A commonly used method for encoding characters using a binary code. Standard ASCII uses an 8-bit code to represent upper and lower case letters, digits, some punctuation, and some number of non-printing characters (such as carrage return). Now largely replaced by UTF-8 encoding.
+
+
+
+Assembly code
+
+A form of intermediate code created by a compiler that is easy to convert into the final form that the computer can execute. An assembly language is typically a direct mapping of one or a few instructions that the CPU can execute into a mnemonic form that is relatively easy for a human to read.
+
+
+
+Asymptotic algorithm analysis
+
+A more formal term for asymptotic analysis.
+
+
+
+Asymptotic analysis
+
+A method for estimating the efficiency of an algorithm or computer program by identifying its growth rate. Asymptotic analysis also gives a way to define the inherent difficulty of a problem. We frequently use the term algorithm analysis to mean the same thing.
+
+
+
+Attribute
+
+In object-oriented programming, a synonym for data members.
+
+
+
+Automata
+
+Synonym for finite state machine.
+
+
+
+Automatic variable
+
+A synonym for local variable. When program flow enters and leaves the variable’s scope, automatic variables will be allocated and de-allocated automatically.
+
+
+
+Average case
+
+In algorithm analysis, the average of the costs for all problem instances of a given input size n
+. If not all problem instances have equal probability of occurring, then average case must be calculated using a weighted average.
+
+
+
+Average seek time
+
+Expected (average) time to perform a seek operation on a disk drive, assuming that the seek is between two randomly selected tracks. This is one of two metrics commonly provided by disk drive vendors for disk drive performance, with the other being track-to-track seek time.
+
+
+
+AVL Tree
+
+A variant implementation for the BST, which differs from the standard BST in that it uses modified insert and remove methods in order to keep the tree balanced. Similar to a Splay Tree in that it uses the concept of rotations in the insert and remove operations.
+
